@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'componentes_avanzados/divider.dart';
+import 'componentes_avanzados/stepper.dart';
 
+// import 'componentes_avanzados/divider.dart';
 // import 'componentes_avanzados/tooltip.dart';
 // import 'componentes_avanzados/datatable.dart';
 // import 'componentes_avanzados/chip.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyDividerWidget(),
+      home: MyStepperWidget(),
     );
   }
 }
