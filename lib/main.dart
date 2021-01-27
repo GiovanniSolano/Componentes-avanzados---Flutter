@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'componentes_avanzados/bottomsheet.dart';
+import 'componentes_avanzados/chip.dart';
 
+// import 'componentes_avanzados/bottomsheet.dart';
 // import 'componentes_avanzados/sliverappbar.dart';
 // import 'componentes_avanzados/expansionPanel.dart';
 // import 'componentes_avanzados/dates.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyBottomSheetWidget(),
+      home: MyChipWidget(),
     );
   }
 }
