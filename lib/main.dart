@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'componentes_avanzados/datatable.dart';
+import 'componentes_avanzados/tooltip.dart';
 
+// import 'componentes_avanzados/datatable.dart';
 // import 'componentes_avanzados/chip.dart';
 // import 'componentes_avanzados/bottomsheet.dart';
 // import 'componentes_avanzados/sliverappbar.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyDataTableWidget(),
+      home: MyTooltipWidget(),
     );
   }
 }
