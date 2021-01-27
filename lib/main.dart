@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'componentes_avanzados/expansionPanel.dart';
+import 'componentes_avanzados/sliverappbar.dart';
 
+// import 'componentes_avanzados/expansionPanel.dart';
 // import 'componentes_avanzados/dates.dart';
 // import 'componentes_avanzados/dropbuttons.dart';
 // import 'componentes_avanzados/simpledialog.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyExpansionPanelWidget(),
+      home: MySliverAppBar(),
     );
   }
 }
