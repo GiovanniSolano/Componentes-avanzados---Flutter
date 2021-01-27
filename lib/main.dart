@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'componentes_avanzados/dropbuttons.dart';
+import 'componentes_avanzados/dates.dart';
 
+// import 'componentes_avanzados/dropbuttons.dart';
 // import 'componentes_avanzados/simpledialog.dart';
 // import 'componentes_avanzados/slider.dart';
 // import 'componentes_avanzados/stack.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyDropButtonsWidget(),
+      home: MyDatesWidget(),
     );
   }
 }
